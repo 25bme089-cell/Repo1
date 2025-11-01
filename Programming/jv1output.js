@@ -13,5 +13,7 @@ let age = 25;
 
 let a = 2;
 let b = "2";
-console.log( a==b );  
-console.log( a===b );  
+console.log( a==b );  //--only checks value
+console.log( a===b );  //--checks type asw
+
+
