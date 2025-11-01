@@ -1,15 +1,15 @@
-function intro(){
+/* function intro(){
    console.log("hello")
 }
 
-intro()
+intro() */
 
-// function add(num1,num2){  //--
-//    return num1 + num2;
-// }
+/* function add(num1,num2){  //--
+    return num1 + num2;
+ } */
 
-// let sum = add(23,56);
-// console.log(sum);        
+/* let sum = add(23,56);
+ console.log(sum);  */       
 
 let add = (a , b) => {
    let namee='danny'
