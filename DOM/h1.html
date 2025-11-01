@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin: 40px;
+        }
+
+        .yellow{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div id = "first"></div>
+    <div id = "second" class="gitreact"></div>
+
+    <!-- <script src="jv4.js"></script> -->
+     <script>
+        let sec = document.getElementById("second")
+        let first = document.getElementById("first")
+        
+        sec.sclassList.add("yellow");
+        console.log(second.classList);
+
+        first.innerHTML= Date.now()
+     </script>
+</body>
+</html>
