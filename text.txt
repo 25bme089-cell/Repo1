@@ -10,3 +10,7 @@ git add "filename"
 git commit -m "message"
 git push origin main
 
+Exercise
+make an app- 2 divs- 1 button associated with 1 div
+when button pressed, colour changes
+singluar div changes color every 3 sec
